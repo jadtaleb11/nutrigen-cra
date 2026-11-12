@@ -1,70 +1,172 @@
-# Getting Started with Create React App
+# 🥗 NutriGen – Smart Nutrition & Fitness Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+NutriGen is a web application designed to help users manage their nutrition, track their weight, and organize their fitness activities. It provides useful tools for monitoring health goals and maintaining a healthy lifestyle.
 
-## Available Scripts
+Developed as part of **CSCI426 – Web Advanced** at the **Lebanese International University (LIU)**.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Live Website:** https://nutrigen-cra.vercel.app/
+- **GitHub Repository:** https://github.com/jadtaleb11/nutrigen-cra
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **User Login:** Login interface with a guest access option.
+- **Dashboard:** Overview of fitness and nutrition information.
+- **Nutrition Calculator:** Calculate BMI, BMR, body fat percentage, lean body mass, and daily calorie goals.
+- **Weight Tracker:** Track weight progress and view recorded history.
+- **Workout Tracking:** Explore workout information and fitness activities.
+- **Contact Page:** Contact page for communication and inquiries.
+- **Local Storage:** Save user information and tracking data locally in the browser.
+- **Responsive Design:** Modern dark-themed interface with a yellow accent color.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- React.js
+- Create React App (CRA)
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- React Router DOM
+- Browser Local Storage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📁 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```text
+nutrigen-cra/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   │   ├── dashboard.png
+│   │   ├── workouts.png
+│   │   └── Nutrition.png
+│   │
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   └── Footer.js
+│   │
+│   ├── pages/
+│   │   ├── Login.js
+│   │   ├── Login.css
+│   │   ├── Home.js
+│   │   ├── Nutrition.js
+│   │   ├── Tracker.js
+│   │   ├── Workouts.js
+│   │   └── Contact.js
+│   │
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── index.css
+│
+├── package.json
+├── package-lock.json
+├── .gitignore
+└── README.md
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 📸 Application Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🖥️ Main Dashboard View
 
-## Learn More
+![NutriGen Dashboard](src/assets/dashboard.png)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🏋️ Workouts Tracking View
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![NutriGen Workouts](src/assets/workouts.png)
 
-### Code Splitting
+### 🥦 Nutrition Management View
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![NutriGen Nutrition](src/assets/Nutrition.png)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## ⚙️ Installation & Setup
 
-### Making a Progressive Web App
+Follow these steps to run NutriGen locally.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 1. Clone the Repository
 
-### Advanced Configuration
+```bash
+git clone https://github.com/jadtaleb11/nutrigen-cra.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 2. Navigate to the Project Directory
 
-### Deployment
+```bash
+cd nutrigen-cra
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 3. Install Dependencies
 
-### `npm run build` fails to minify
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4. Start the Development Server
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 🚀 Deployment
+
+NutriGen is deployed using **Vercel**.
+
+**Production Website:** https://nutrigen-cra.vercel.app/
+
+The project is connected to GitHub for source code management and deployment updates.
+
+---
+
+## 🔄 Version Control
+
+Git and GitHub are used for version control and project management.
+
+- Source code hosted on GitHub.
+- Project changes tracked through Git commits.
+- Main development branch: `main`.
+
+---
+
+## 📚 Academic Information
+
+| Detail | Information |
+|---|---|
+| Project Name | NutriGen |
+| Course | CSCI426 – Web Advanced |
+| University | Lebanese International University (LIU) |
+| Project Phase | Phase 1 – Web 2 |
+| Submission Date | November 12, 2026 |
+
+---
+
+## 👨‍💻 Developer
+
+**GitHub:** [@jadtaleb11](https://github.com/jadtaleb11)
+
+---
+
+<p align="center">
+  <strong>NutriGen – Eat Smart. Train Hard. Live Better.</strong>
+</p>
